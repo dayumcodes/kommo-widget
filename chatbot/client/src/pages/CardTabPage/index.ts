@@ -1,1 +1,0 @@
-export { CardTabPage } from './CardTabPage';

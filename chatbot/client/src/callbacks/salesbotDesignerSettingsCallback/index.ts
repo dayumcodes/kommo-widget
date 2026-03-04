@@ -1,1 +1,0 @@
-export { salesbotDesignerSettingsCallback } from './salesbotDesignerSettingsCallback';
