@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "name": "Private Chatbot Bridge",
+    "description": "Routes Salesbot messages to your backend and returns responses.",
+    "short_description": "Private chatbot bridge",
+    "tour_description": "Install the widget, configure a webhook URL in the Salesbot block, and branch by success/fail exits."
+  },
+  "settings": {
+    "default_webhook_url": "Default webhook URL"
+  },
+  "salesbot": {
+    "handler_name": "Private chatbot request",
+    "webhook_url": "Webhook URL",
+    "webhook_url_hint": "Example: https://api.techxoetic.com/kommo/widget-request",
+    "success_exit": "Success exit",
+    "fail_exit": "Fail exit"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": [
+      "en"
+    ],
+    "installation": true,
+    "support": {
+      "link": "https://techxoetic.com/support",
+      "email": "support@techxoetic.com"
+    }
+  },
+  "locations": [
+    "settings",
+    "salesbot_designer"
+  ],
+  "tour": {
+    "is_tour": true,
+    "tour_description": "widget.tour_description",
+    "tour_images": {
+      "en": [
+        "/images/tour_1_en.png"
+      ]
+    }
+  },
+  "settings": {
+    "default_webhook_url": {
+      "name": "settings.default_webhook_url",
+      "type": "text",
+      "required": false,
+      "default_value": "https://api.techxoetic.com/kommo/widget-request"
+    }
+  },
+  "salesbot_designer": {
+    "logo": "/images/logo_medium.png",
+    "private_chatbot_handler": {
+      "name": "salesbot.handler_name",
+      "settings": {
+        "webhook_url": {
+          "name": "salesbot.webhook_url",
+          "hint": "salesbot.webhook_url_hint",
+          "type": "url",
+          "manual": true,
+          "default_value": "https://api.techxoetic.com/kommo/widget-request"
+        }
+      }
+    }
+  }
+}
