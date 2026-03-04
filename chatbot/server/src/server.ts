@@ -15,7 +15,7 @@ import { SalesbotRequestBody, JwtData, DPRequestBody } from './server.types';
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
